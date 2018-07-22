@@ -6,6 +6,7 @@
 # x,y                 nrow-by-ncol images to be compared
 # alpha,beta,gamma    SSIM coefficients
 # eps                 small constants
+# L                   dynamic range of the images
 
 SSIM <- function(x, y, alpha = 1, beta = 1, gamma = 1, eps = c(0.01, 0.03), L = 255)
 {
