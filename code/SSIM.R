@@ -1,4 +1,4 @@
-## $ID: SSIM.R 2018/05/12 14:04:07, F. Osorio
+## $ID: SSIM.R, last updated 2018/07/21, F. Osorio
 
 ## structural similarity index for images (SSIM)
 
@@ -7,12 +7,13 @@
 # alpha,beta,gamma    SSIM coefficients
 # eps                 small constants
 
-SSIM <- function(x, y, alpha = 1, beta = 1, gamma = 1, eps = c(0.01, 0.03, 0.03))
+SSIM <- function(x, y, alpha = 1, beta = 1, gamma = 1, eps = c(0.01, 0.03), L = 255)
 {
   # rescaling constants
-  eps[1] <- (255 * eps[1])^2
-  eps[2] <- (255 * eps[2])^2
-  eps[3] <- .5 * (255 * eps[3])^2
+  eps <- c(eps, 0)
+  eps[1] <- (L * eps[1])^2
+  eps[2] <- (L * eps[2])^2
+  eps[3] <- .5 * eps[2]
 
   # coefficients of SSIM
   pars <- c(alpha, beta, gamma)
