@@ -1,4 +1,4 @@
-/* $ID: stats.h 2018/07/11 17:58:13, F. Osorio */
+/* $ID: stats.h, last updated 2018/07/23, F. Osorio */
 
 #ifndef STATS_H
 #define STATS_H

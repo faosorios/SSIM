@@ -1,4 +1,4 @@
-/* $ID: similarity.h 2018/07/11 18:01:13, F. Osorio */
+/* $ID: similarity.h, last updated 2018/07/23, F. Osorio */
 
 #ifndef SIMILARITY_H
 #define SIMILARITY_H

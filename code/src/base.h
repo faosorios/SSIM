@@ -1,4 +1,4 @@
-/* $ID: base.h 2018/07/10 14:12:47, F. Osorio */
+/* $ID: base.h, last updated 2018/07/30, F. Osorio */
 
 #ifndef BASE_H
 #define BASE_H
@@ -18,8 +18,8 @@
 #define MIN(a,b)    (((a)<(b)) ? (a) : (b))
 #define EQUAL(a,b)  (((a)!=(b)) ? (0) : (1))
 #define SQR(x)      R_pow_di(x, 2)
-#define ABSTOL      1.0e-2
-#define REPORT      5
+#define ABSTOL      1.0e-5
+#define REPORT      1
 #define GOLDEN      0.3819660112501051
 #define repeat      for(;;)
 
@@ -29,11 +29,5 @@ typedef struct DIMS_struct {
     n,  /* number of observations */
     p;  /* number of parameters */
 } DIMS_struct, *DIMS;
-
-/* QR structure */
-typedef struct QR_struct {
-  double *mat, *qraux;
-  int ldmat, nrow, ncol;
-} QR_struct, *QRStruct;
 
 #endif /* BASE_H */

@@ -1,4 +1,4 @@
-/* $ID: stats.c 2018/07/11 17:50:43, F. Osorio */
+/* $ID: stats.c, last updated 2018/07/23, F. Osorio */
 
 #include "stats.h"
 

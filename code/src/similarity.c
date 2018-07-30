@@ -1,4 +1,4 @@
-/* $ID: similarity.c 2018/07/11 18:09:41, F. Osorio */
+/* $ID: similarity.c, last updated 2018/07/23, F. Osorio */
 
 #include "similarity.h"
 
