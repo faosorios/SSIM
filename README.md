@@ -11,5 +11,5 @@ Code tested on:
 CONTENTS:
 - code/src/ C sources for parameter estimation and computation of the structural similarity index for images (SSIM).
 - code/SSIM.R: R function for computation of SSIM.
-- code/SSIM_FIT.R: R function for estimation and testing of SSIM.
+- code/SSIM_FIT.R: R function for parameter estimation of SSIM.
 - README.md: this file.
