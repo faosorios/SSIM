@@ -89,7 +89,7 @@ SSIM.fit <- function(x, y, size = 16, maxiter = 200, tol = 1e-6)
   phi <- exp(coef[1])
   if (phi < 1)
     phi <- .5 * (1 + sqrt(5))
-  coef <- rep(1, 3) # coef[2:4]
+  coef <- rep(1, 3)
   start <- c(coef, phi)
   z <- 1 / db$RMSE
   control <- c(maxiter, tol, 0)
