@@ -1,6 +1,6 @@
 Supplementary material to "Estimation of the structural similarity index for remote sensing data" by Felipe Osorio, Ronny Vallejos, Wilson Barraza, Silvia Ojeda and Marcos A. Landi
 
-Code written by: Felipe Osorio
+Code written by: Felipe Osorio and Wilson Barraza
 
 Correspondence author: Felipe Osorio, Email: felipe.osorios@usm.cl
 
