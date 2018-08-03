@@ -1,4 +1,4 @@
-## $ID: SSIM_FIT.R, last updated 2018/07/30, F. Osorio
+## $ID: SSIM_FIT.R, last updated 2018/07/30, F. Osorio and W. Barraza
 
 ## SSIM parameter estimation using a heteroscedastic regression model
 
