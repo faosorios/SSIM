@@ -11,7 +11,7 @@ Correspondence author: Felipe Osorio, Email: felipe.osorios@usm.cl
 ### Installation instructions: 
 To create the Dynamically Loaded (DL) library, enter at the console prompt
 
-`R CMD SHLIB -o SSIM.so *.c` or `Rcmd SHLIB -o SSIM.dll *.c` if your are in Windows
+`R CMD SHLIB -o SSIM.so *.c`
 
 ### CONTENTS:
 - code/src/ : C sources for parameter estimation and computation of the structural similarity index for images (SSIM).
