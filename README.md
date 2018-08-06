@@ -8,6 +8,10 @@ Code tested on:
 - R under development (2018-02-21 r74285), running Linux Mint 18.3 (64 bits)
 - R version 3.3.0, running OS X 10.13.4 (64 bits)
 
+Installation instructions:
+To create the Dynamically Loaded (DL) library, enter at the console prompt:
+`R CMD SHLIB -o SSIM.so *.c` or `R CMD SHLIB -o SSIM.dll *.c` if your are in Windows
+
 CONTENTS:
 - code/src/ : C sources for parameter estimation and computation of the structural similarity index for images (SSIM).
 - code/SSIM.R : R function for computation of SSIM.
