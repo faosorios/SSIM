@@ -8,8 +8,8 @@ Correspondence author: Felipe Osorio, Email: felipe.osorios@usm.cl
 - R under development (2018-02-21 r74285), running Linux Mint 18.3 (64 bits)
 - R version 3.3.0, running OS X 10.13.4 (64 bits)
 
-### Installation instructions: 
-To create the Dynamically Loaded (DL) library, enter at the console prompt
+### Instructions: 
+To create the Dynamically Loaded (DL) library, at the console prompt move to `/code/src` directory and enter:
 
 `R CMD SHLIB -o SSIM.so *.c`
 
