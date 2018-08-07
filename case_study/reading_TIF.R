@@ -2,10 +2,10 @@
 
 # to load images in TIF format
 library(tiff)
-sardinia00 <- readTIFF("sardinia00.tif")
-sardinia05 <- readTIFF("sardinia05.tif")
-sardinia30 <- readTIFF("sardinia30.tif")
-sardinia60 <- readTIFF("sardinia60.tif")
+sardinia00 <- readTIFF("../data/sardinia00.tif")
+sardinia05 <- readTIFF("../data/sardinia05.tif")
+sardinia30 <- readTIFF("../data/sardinia30.tif")
+sardinia60 <- readTIFF("../data/sardinia60.tif")
 
 # scaling images to be in the interval [0,255]
 sardinia00 <- round(255 * sardinia00)
