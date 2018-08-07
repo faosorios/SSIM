@@ -13,7 +13,7 @@ To create the Dynamically Loaded (DL) library, at the console prompt move to `/c
 
 `R CMD SHLIB -o SSIM.so *.c`
 
-Next copy `SSIM.so` file to the working directory (in our case to `/case_study`), and execute the commands at `case_study.R` file (optionally, you can use `reading_TIF.R` to read data from TIF images. 'tif' R package is required).
+Next, copy `SSIM.so` file to the working directory (in our case to `/case_study`), and execute the commands at `case_study.R` file (optionally, you can use `reading_TIF.R` to read data from TIF images. 'tif' R package is required).
 
 ### CONTENTS:
 - case_study/ : R files to read, fit and test coefficients of SSIM.
