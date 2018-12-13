@@ -95,26 +95,25 @@ SSIM(synthetic00, synthetic10)
 #   user  system elapsed
 #  0.007   0.000   0.007
 
-cf <- o15$coefficients
-SSIM(synthetic00, synthetic15, alpha = cf[1], beta = cf[2], gamma = cf[3])
+SSIM(synthetic00, synthetic1R)
 #$SSIM
-#[1] 0.6099715
+#[1] 0.740467
 #
 #$coefficients
-#   alpha     beta    gamma
-#1.812227 1.942140 1.754460
+#alpha  beta gamma
+#    1     1     1
 #
 #$comps
 #luminance  contrast structure
-#0.9629403 0.8829161 0.9004051
+#0.9588597 0.9058664 0.8524846
 #
 #$stats
 #    x.bar     x.var     y.bar     y.var       cov
-# 144.3057 5458.5072  109.4370 1961.6577 2943.4504
+# 144.3057 5458.5072  107.7707 2202.0274 2951.2099
 #
 #$speed
 #   user  system elapsed
-#  0.004   0.004   0.008
+#  0.009   0.002   0.013
 
 cf <- o1R$coefficients
 SSIM(synthetic00, synthetic1R, alpha = cf[1], beta = cf[2], gamma = cf[3])
