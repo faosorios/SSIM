@@ -21,5 +21,5 @@ Next, copy `SSIM.so` file to the working directory (in our case to `/case_study`
 - code/src/ : C sources for parameter estimation and computation of the structural similarity index for images (SSIM).
 - code/SSIM.R : R function for computation of SSIM.
 - code/SSIM_FIT.R : R function for parameter estimation of SSIM.
-- data/ : images used in numerical experiments (available in .RDA and .PNG formats).
+- data/ : reference images used in numerical experiments (available in .RDA and .PNG formats).
 - README.md : this file.
