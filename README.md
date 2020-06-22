@@ -1,4 +1,4 @@
-# Estimation of the Structural Similarity Index (SSIM) using nonlinear regression
+# Estimation of the Structural Similarity Index (SSIM) for Image Quality Assessment 
 
 Supplementary material to **Statistical estimation of the structural similarity index for image quality assessment** by Felipe Osorio, Ronny Vallejos, Wilson Barraza, Silvia Ojeda and Marcos A. Landi
 
