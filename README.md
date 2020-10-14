@@ -15,7 +15,7 @@ To create the Dynamically Loaded (DL) library, using the console prompt move to 
 
 `R CMD SHLIB -o SSIM.so *.c`
 
-Next, copy `SSIM.so` file to the working directory (in our case to `/case_study`), and execute the commands in `case_study.R` file (optionally, you can use `reading_TIF.R` to read data from TIF images. 'tif' R package is required).
+Next, copy `SSIM.so` file to the working directory (in our case to `/simulation`), and execute the commands in `simulation.R` and `CDF.R` files.
 
 ### CONTENTS:
 - code/src/ : C sources for parameter estimation and computation of the structural similarity index for images (SSIM).
