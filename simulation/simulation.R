@@ -6,8 +6,8 @@ library(SpatialPack)
 
 # loading images
 data(texmos2) # 'texmos2' is available in SpatialPack
-lena   <- readPNG("lena_color.png")
-baboon <- readPNG("baboon_color.png")
+lena   <- readPNG("../data/lena_color.png")
+baboon <- readPNG("../data/baboon_color.png")
 
 # converting RGB image to grayscale ('texmos2' is already in grayscale)
 lena   <- RGB2gray(lena, method = "ITU")
