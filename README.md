@@ -1,10 +1,8 @@
 # Estimation of the Structural Similarity Index (SSIM) for Image Quality Assessment 
 
 [![R](https://img.shields.io/badge/Made%20with-R%20under%20development-success)](https://cran.r-project.org/)
-[![png](https://img.shields.io/badge/png-0.1--7-important)](https://cran.r-project.org/package=png)
-[![SpatialPack](https://img.shields.io/badge/SpatialPack-0.3--8196-important)](https://cran.r-project.org/package=SpatialPack)
-[![alabama](https://img.shields.io/badge/alabama-2015.3--1-red)](https://cran.r-project.org/package=alabama)
-[![gmm](https://img.shields.io/badge/gmm-1.6--2-red)](https://cran.r-project.org/package=gmm)
+[![png](https://img.shields.io/badge/png-0.1--7-red)](https://cran.r-project.org/package=png)
+[![SpatialPack](https://img.shields.io/badge/SpatialPack-0.3--8196-red)](https://cran.r-project.org/package=SpatialPack)
 
 Supplementary material to **Statistical estimation of the structural similarity index for image quality assessment** by Felipe Osorio, Ronny Vallejos, Wilson Barraza, Silvia Ojeda and Marcos A. Landi
 
