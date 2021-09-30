@@ -1,0 +1,27 @@
+library(png)
+mississippi <- readPNG("mississippi.png")
+dam <- readPNG("dam.png")
+copeland <- readPNG("copeland.png")
+corpus <- readPNG("corpus_christi.png")
+objects()
+plot(as.raster(copeland))
+q()
+objects()
+library(SpatialPack)
+dyn.load("SSIM.so")
+source("../code/SSIM_FIT.R")
+source("../code/SSIM_TEST.R")
+source("../code/SSIM_img.R")
+q()
+objects()
+dyn.load("SSIM.so")
+library(SpatialPack)
+copeland.fit <- SSIM.img(copeland)
+copeland.fit
+corpus.fit <- SSIM.img(corpus)
+corpus.fit
+dam.fit <- SSIM.img(dam)
+dam.fit
+mississippi.fit <- SSIM.img(mississippi)
+mississippi.fit
+q()
