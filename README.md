@@ -22,11 +22,14 @@ To create the Dynamically Loaded (DL) library, using the console prompt move to 
 Next, copy `SSIM.so` file to the working directory (in our case to `/simulation`), and execute the commands in `simulation.R` and `CDF.R` files.
 
 ### CONTENTS:
+- case_study/ : SAR imagery from Copeland, Kansas; Corpus Christi, Texas and the Mississippi river delta in the state of Louisiana, USA and an image taken from Ullum's dam in Argentina (in .PNG format).
+- case_study/SSIM_img.R : R function for fitting an heteroscedastic nonlinear regression model using several filters
+- case_study/case_study.R : R function to perform the SSIM parameter estimation on SAR imagery described at Section 3.2 from manuscript.
 - code/src/ : C sources for parameter estimation and computation of the structural similarity index for images (SSIM).
 - code/SSIM.R : R function for computation of SSIM.
 - code/SSIM_FIT.R : R function for parameter estimation of SSIM.
 - simulation/gamma.simul.R: R function to perform the contamination with multiplicative noise using a Gamma distribution, for different decreasing levels of contamination, that is, 1, 2, 4, 8, 16, and 32 looks.
-- simulation/simulation.R: R commands to perform the simulation study described at Section 3 from manuscript.
+- simulation/simulation.R: R commands to perform the simulation study described at Section 3.1 from manuscript.
 - simulation/CDF.R: R commands to computation of empirical cumulative distribution of the SSIM under H0 and H1 for several looks.
 - data/ : reference images (Lena, Baboon and texmos2) used in numerical experiments (available in .RDA and .PNG formats).
 - README.md : this file.
