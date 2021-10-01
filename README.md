@@ -11,6 +11,7 @@ Code written by: Felipe Osorio and Wilson Barraza
 Correspondence author: Felipe Osorio, Email: felipe.osorios@usm.cl
 
 ### Code tested on:
+- R Under development (2021-05-12 r80288), running MX Linux 19.4 (64 bits)
 - R under development (2018-02-21 r74285), running Linux Mint 18.3 (64 bits)
 - R version 3.3.0, running OS X 10.13.4 (64 bits)
 
