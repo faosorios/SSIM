@@ -4,7 +4,7 @@
 [![png](https://img.shields.io/badge/png-0.1--7-red)](https://cran.r-project.org/package=png)
 [![SpatialPack](https://img.shields.io/badge/SpatialPack-0.3--8196-red)](https://cran.r-project.org/package=SpatialPack)
 
-Supplementary material to **Statistical estimation of the structural similarity index for image quality assessment** by Felipe Osorio, Ronny Vallejos, Wilson Barraza, Silvia Ojeda and Marcos A. Landi
+Supplementary material to **Statistical estimation of the structural similarity index for image quality assessment** by Felipe Osorio, Ronny Vallejos, Wilson Barraza, Silvia Ojeda and Marcos A. Landi (Accepted in Signal, Image and Video Processing)
 
 Code written by: Felipe Osorio and Wilson Barraza
 
