@@ -3,8 +3,9 @@
 [![R](https://img.shields.io/badge/Made%20with-R%20under%20development-success)](https://cran.r-project.org/)
 [![png](https://img.shields.io/badge/png-0.1--7-red)](https://cran.r-project.org/package=png)
 [![SpatialPack](https://img.shields.io/badge/SpatialPack-0.3--8196-red)](https://cran.r-project.org/package=SpatialPack)
+[![DOI](https://img.shields.io/badge/DOI-10.1007/s11760-021-02051-9-blue)](https://doi.org/10.1007/s11760-021-02051-9)
 
-Supplementary material to **Statistical estimation of the structural similarity index for image quality assessment** by Felipe Osorio, Ronny Vallejos, Wilson Barraza, Silvia Ojeda and Marcos A. Landi (Accepted in Signal, Image and Video Processing)
+Supplementary material to **Statistical estimation of the structural similarity index for image quality assessment** by Felipe Osorio, Ronny Vallejos, Wilson Barraza, Silvia Ojeda and Marcos A. Landi (Signal, Image and Video Processing 187, 108885. DOI: [10.1007/s11760-021-02051-9](https://doi.org/10.1007/s11760-021-02051-9))
 
 Code written by: Felipe Osorio and Wilson Barraza
 
